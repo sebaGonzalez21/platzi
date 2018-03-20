@@ -2,7 +2,7 @@
 
 Platzom es un idioma iventado para el [Curso de Fundamento de JS](https://platzi.com/js) de [Patzi](https://platzi.com), el mejor lugar de educacion online
 
-## Descripcion del idioma
+### Descripcion del idioma
 + Si la palabra termina con "ar" se le quitan las 2 letras
 + Si la palabra inicia con z, se añade "pe" al final
 + Si la palabra traducida tiene 10 o mas letras se parte por la mitad y se une con guion del medio
@@ -10,13 +10,13 @@ Platzom es un idioma iventado para el [Curso de Fundamento de JS](https://platzi
 regla anterior cuenta y se devuelve la misma palabra
 pero intercalando mayusculas y minusculas
 
-##Instalacion
+### Instalacion
 ```
 
 npm install platzom
 ```
 
-##Uso
+### Uso
 ```
 
 import platzom from 'platzom'
@@ -29,8 +29,8 @@ platzom("zarpar");Zarppe
 platzom("abecedario"); //abce-dario
 platzom("sometemos"); //SoMeTeMos
 ```
-##Creditos
+### Creditos
 + [Seba Gonzalez](https://www.facebook.com/SebastianGonzalez.21)
 
-##Licencia
+### Licencia
 + [MIT](https://opensource.org/licenses/MIT)
